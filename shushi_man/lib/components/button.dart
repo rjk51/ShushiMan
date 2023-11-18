@@ -15,20 +15,20 @@ class MyButton extends StatelessWidget {
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
-          color: const Color.fromARGB(212, 135, 81, 77),
+          color: const Color.fromARGB(109, 140, 94, 91),
           borderRadius: BorderRadius.circular(40),
         ),
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               text,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.white,
               ),
             ),
-            Icon(
+            const Icon(
               Icons.arrow_forward,
               color: Colors.white,
             )
